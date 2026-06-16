@@ -78,5 +78,5 @@ variable "is_peering_enabled" {
 }
 
 variable "vpc_id" {
-    default = ""
+    default = {}
 }
