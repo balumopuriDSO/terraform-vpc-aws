@@ -1,6 +1,6 @@
 resource "aws_security_group" "main" {
     name = local.sg_final_name
-    description = var.description
+    description = var.sg_description
     vpc_id = var.vpc_id
 
     egress{

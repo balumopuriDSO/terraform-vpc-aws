@@ -10,7 +10,7 @@ variable "sg_name" {
     default = {}
 }
 
-variable "description" {
+variable "sg_description" {
     default = {}
 }
 
