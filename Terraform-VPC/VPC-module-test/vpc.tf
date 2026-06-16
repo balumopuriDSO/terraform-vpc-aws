@@ -1,5 +1,6 @@
 module "vpc" {
     source = "../VPC module"
+    # source = "git::VPC module?ref=main"
     project_name = var.project_name
     environment = var.environment
     common_tags = var.common_tags
