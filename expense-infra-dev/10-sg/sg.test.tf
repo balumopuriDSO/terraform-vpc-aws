@@ -30,7 +30,7 @@ module "bastion_sg" {
     source = "git::https://github.com/balumopuriDSO/terraform-vpc-aws.git//Terraform-aws-securitygroup/aws-sg-module?ref=61edddd9ffecf2a07c59bff5c1e5fba1e8f0832b"
     project_name = var.project_name
     environment = var.environment
-    sg_name = "fbastion"
+    sg_name = "bastion"
     sg_description = "created for bastion instances in expense dev"
     vpc_id = data.aws_ssm_parameter.vpc_id.value
 }
