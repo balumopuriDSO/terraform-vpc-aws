@@ -27,3 +27,4 @@ resource "aws_ssm_parameter" "app_alb_sg_id" {
   type  = "String"
   value = module.app_alb_sg.sg_id
 }
+
