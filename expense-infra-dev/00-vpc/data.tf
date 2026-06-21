@@ -1,4 +1,5 @@
-data "aws_ssm_parameter" "vpc_id" {
-    name = "/${var.project_name}/${var.environment}/vpc_id"
-}
+# Commented out for initial deployment - this SSM parameter is created by parameter.tf
+# data "aws_ssm_parameter" "vpc_id" {
+#     name = "/${var.project_name}/${var.environment}/vpc_id"
+# }
 

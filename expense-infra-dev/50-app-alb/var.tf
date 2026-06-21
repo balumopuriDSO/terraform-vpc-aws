@@ -45,3 +45,13 @@ variable "common_tags"{
         Terraform = "true" 
     }
 }
+
+variable "domain_name" {
+    default = "balaportfolio.space"
+  
+}
+
+variable "zone_id" {
+    default = "Z1003784M55T6CSMP30H"
+  
+}
